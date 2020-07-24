@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+        <title>Atividade batista</title>
+        
+        <script>
+            function valida(){
+                var nome = document.getElementByld('idnome').value;
+
+            }
+            if(nome.length == 0){
+                console.log('Algo deu errado!!!');
+            }
+
+        </script>
+        
+        <style type="text/css">
+        
+            form 
+{
+            
+            margin: 0 auto;
+            width: 400px;
+            
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+    
+}
+        form div + div 
+{
+            margin-top: 1em;
+}
+        .button 
+{
+    
+    padding-left: 90px; 
+        
+        
+        </style>
+        
+ 
+
+</head>
+<body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <div>
+            <label for="Telefone">Telefone:</label>
+            <input type="Telefone" id="Telefone" />
+        </div>
+        <div>
+            <label for="CPF">CPF:</label>
+            <input type="CPF" id="CPF" />
+        </div>
+
+        <div>
+            <label for="RG">RG:</label>
+            <input type="RG" id="RG" />
+        </div>
+
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
+    
+</body>
+</html>
